@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style2.css">    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").toggle();
+  });
+});
+</script>
+</head>
+<body>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>Upcoming</span></h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="admin_dashboard.html" data-after="Back">Back</a></li>            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <img src="assets/nissan.jpg" alt="Trulli" width="500" height="333">
+  <button class="cta">Details</button>
+  <p><b>Specifications of Nissan GT-R ; Engine Type, V6 Twin Turbo Petrol 
+    Engine ; Displacement (cc), 3798 ; Max Power, 562.20bhp@6800rpm ; Max Torque, 637Nm@3300-5800rpm.</b></p>
+</body>
+</html>
